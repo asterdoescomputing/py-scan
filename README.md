@@ -1,4 +1,4 @@
-# Local Face Scanner
+# Py-Scan
 
 A small, local-only Python prototype for experimenting with webcam face detection, face enrollment, and recognition logs.
 
@@ -8,7 +8,13 @@ Use this only with informed consent from the people being enrolled. Face images 
 
 ```powershell
 python -m venv .venv
+```
+
+```powershell
 .\.venv\Scripts\Activate.ps1
+```
+
+```powershell
 python -m pip install -r requirements.txt
 ```
 
@@ -34,4 +40,7 @@ View each enrolled person's latest recorded time:
 python app.py list
 ```
 
-Face samples and SQLite logs are created in `data/` when you run the app. That directory is intentionally ignored by Git and should not be uploaded. This is an educational prototype, not a security or access-control system.
+Face samples and SQLite logs are created in `data/` when you run the app. This is an educational prototype, not a security or access-control system.
+
+## Contact
+For more information, reporting errors or any other business, please feel free to open an issue!
